@@ -1,0 +1,225 @@
+/*=======Media Query for max-width:1200px=======*/
+@media screen and (max-width: 1200px) {
+    .row {
+        max-width: 90%;
+    }
+    .social-icons ion-icon {
+        padding: 7px 7px;
+        margin: 0px 2.5px;
+        font-size: 160%;
+    }
+    .team-grid-item p {
+        word-spacing: 0px;
+    }  
+    .team-text-box p {
+        word-spacing: 0px;
+    }
+}
+/*=======Media Query for max-width:1024px=======*/
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 9px;
+    }
+    .hero-text-box h1 {
+        font-size: 390%;
+    }
+    .team-grid-item p {
+        height: 95px;
+    }
+}
+
+/*=======Media Query for max-width:920px=======*/
+
+@media screen and (max-width: 920px) {
+    .logo {
+        height: 38px;
+    }
+    body {
+        
+        h2{
+            font-size: 370%;
+        }    
+    }
+    .nav ul li {
+        font-size: 140%;
+    }
+    .nav li a {
+        padding: 5px 15px;
+    }
+     .hero-text-box h1 {
+        font-size: 350%;
+    }
+    .team-grid-item h4 {
+        font-size: 210%;
+    }
+    .team-grid-item p {
+        height: 120px;
+    }
+    .controls {
+        width: 75%;
+    }
+    .footer-container ul li a {
+        font-size: 200%;
+    }
+    .footer-container ul li {
+        margin: 0px 12px;
+    }
+}
+/*=======Media Query for max-width:768px=======*/
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 7px;
+    }
+     .nav ul li {
+        font-size: 180%;
+    }
+    .nav li a {
+        padding: 5px 10px;
+    }
+    #service {
+        font-size: 10px;
+    }
+    .service-text-box {
+        width: 100%;
+    }
+    .service-text-box h2 {
+        font-size: 380%;
+    }
+    .service-grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+     #team {
+        font-size: 10px;
+    }
+    .team-text-box h2 {
+        font-size: 380%;
+    }
+    .team-grid-container {
+           grid-template-columns: 1fr 1fr;
+    }
+    .social-icons{
+        margin-bottom: 20px;
+    }
+    .team-grid-item p {
+        height: auto;
+    }
+    #skill {
+        font-size: 10px;
+    }
+    .skill-grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .portfolio-text-box h2 {
+        font-size: 380%;
+    }
+     #portfolio {
+        font-size: 8px;
+    }
+    .about-text-box h2 {
+        font-size: 380%;
+    }
+     #about {
+        font-size: 8px;
+    }
+    #contact {
+        font-size: 10px;
+    }
+    .contact-form form input {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+/*=======Media Query for max-width:480px=======*/
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 7px;
+    }
+    .nav ul {
+        width: 75%;
+        padding-left: 0px;
+    }
+    .logo {
+        width:80%;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .nav li a {
+        padding: 5px 5px;
+    }
+    .hero-text-box h1 {
+        font-size: 320%;
+    }
+    .hero-text-box span a {
+        font-size: 220%;
+    }
+    #service {
+        font-size: 9px;
+    }
+    .service-grid-container {
+        grid-template-columns: 1fr;
+    }
+    .service-grid-item img {
+        margin-bottom: 0px;
+        margin-top: 40px;
+    }
+    #team {
+        font-size: 8px;
+    }
+    .team-grid-container {
+        grid-template-columns: 1fr;
+    }
+    .social-icons {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .team-grid-item p {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .team-grid-item h4 {
+        margin-top: 0px;
+    }
+    #skill {
+        font-size: 8px;
+    }
+    .skill-grid-container {
+        grid-template-columns: 1fr;
+    }
+    #portfolio {
+        font-size: 8px;
+    }
+    .portfolio-text-box {
+        width: 80%;
+    }
+    .controls {
+        width: 100%;
+    }
+    .controls button {
+        padding: 7px 13px;
+        margin: 5px 8px;
+    }
+    .portfolio-grid-container {
+        grid-template-columns: 1fr;
+    }
+    .portfolio-grid-item {
+        width: 300px;
+        margin: auto;
+    }
+    #about {
+        font-size: 7px;
+    }
+    .about-grid-container {
+        grid-template-columns: 1fr;
+    }
+    #contact {
+        font-size: 8px;
+    }
+    .footer-container ul li {
+        margin: 0px 8px;
+    }
+    .footer-container ul li a {
+        font-size: 200%;
+    }      
+}
